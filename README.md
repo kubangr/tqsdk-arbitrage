@@ -13,6 +13,22 @@
 |---|---------|------|------|------|
 | 01 | 螺纹钢跨期套利 | 跨期套利 | SHFE.rb | [01_calendar_spread_rb.py](strategies/01_calendar_spread_rb.py) |
 | 02 | 铁矿石+螺纹钢跨品种套利（钢厂利润回归） | 跨品种套利 | SHFE.rb + DCE.i | [02_cross_commodity_rb_i.py](strategies/02_cross_commodity_rb_i.py) |
+| 03 | 跨品种套利：螺纹钢与铁矿石价差策略 | 跨品种套利 | SHFE.rb + DCE.i | [03_rb_i_spread.py](strategies/03_rb_i_spread.py) |
+| 04 | 统计套利：黄金与白银比价回归策略 | 统计套利 | SHFE.au + SHFE.ag | [04_au_ag_ratio.py](strategies/04_au_ag_ratio.py) |
+| 05 | 跨期套利：螺纹钢近远月价差回归策略 | 跨期套利 | SHFE.rb | [05_rb_spread_regression.py](strategies/05_rb_spread_regression.py) |
+| 06 | 跨品种套利：螺纹钢与热卷价差策略 | 跨品种套利 | SHFE.rb + SHFE.hc | [06_rb_hc_spread.py](strategies/06_rb_hc_spread.py) |
+| 07 | 跨品种套利：螺纹钢与焦炭价差策略 | 跨品种套利 | SHFE.rb + SHFE.j | [07_rb_j_spread.py](strategies/07_rb_j_spread.py) |
+| 08 | 跨品种套利：大豆与豆粕价差策略 | 跨品种套利 | DCE.a + DCE.m | [08_a_m_spread.py](strategies/08_a_m_spread.py) |
+| 09 | 铁矿石跨期套利策略 | 跨期套利 | DCE.i | [09_i_spread.py](strategies/09_i_spread.py) |
+| 10 | 铜铝跨品种套利策略 | 跨品种套利 | SHFE.cu + SHFE.al | [10_cu_al_ratio.py](strategies/10_cu_al_ratio.py) |
+| 11 | 跨期套利：螺纹钢近远月价差策略 | 跨期套利 | SHFE.rb | [11_rb_calendar_spread.py](strategies/11_rb_calendar_spread.py) |
+| 12 | 跨品种套利：热卷与螺纹钢价差策略 | 跨品种套利 | SHFE.hc + SHFE.rb | [12_hc_rb_spread.py](strategies/12_hc_rb_spread.py) |
+| 13 | 跨品种套利：螺纹钢与铁矿石价差策略 | 跨品种套利 | SHFE.rb + DCE.i | [13_rb_i_spread.py](strategies/13_rb_i_spread.py) |
+| 14 | 跨品种套利：焦煤与焦炭价差策略 | 跨品种套利 | DCE.jm + DCE.j | [14_jm_j_spread.py](strategies/14_jm_j_spread.py) |
+| 15 | 跨品种套利：螺纹钢与热卷价差策略 | 跨品种套利 | SHFE.rb + SHFE.hc | [15_hc_rb_spread.py](strategies/15_hc_rb_spread.py) |
+| 16 | 跨品种套利：豆粕与菜粕价差策略 | 跨品种套利 | DCE.m + CZCE.rm | [16_rm_pm_spread.py](strategies/16_rm_pm_spread.py) |
+| 17 | 跨期套利：螺纹钢近远月价差策略 | 跨期套利 | SHFE.rb | [17_rb_calendar_spread.py](strategies/17_rb_calendar_spread.py) |
+| 18 | 跨品种套利：焦炭与焦煤价差策略 | 跨品种套利 | DCE.j + DCE.jm | [18_j_jm_spread.py](strategies/18_j_jm_spread.py) |
 
 ## 策略分类
 
@@ -20,7 +36,7 @@
 利用同品种不同月份合约价差的均值回归特性。
 
 ### 🔄 跨品种套利（Cross-Commodity）
-利用原料与成品之间的加工利润回归，如黑色系（铁矿石→螺纹钢）。
+利用原料与成品之间的加工利润回归，如黑色系（铁矿石→螺纹钢）、有色金属（铜铝）等。
 
 ### 📊 统计套利（Statistical Arbitrage）
 基于协整关系或相关性的配对交易策略。
@@ -45,4 +61,6 @@ pip install tqsdk numpy pandas
 
 ---
 
-持续更新中，欢迎 Star ⭐ 关注
+**持续更新中，欢迎 Star ⭐ 关注**
+
+*更新时间：2026-03-11*
