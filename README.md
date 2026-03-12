@@ -29,6 +29,8 @@
 | 16 | 跨品种套利：豆粕与菜粕价差策略 | 跨品种套利 | DCE.m + CZCE.rm | [16_rm_pm_spread.py](strategies/16_rm_pm_spread.py) |
 | 17 | 跨期套利：螺纹钢近远月价差策略 | 跨期套利 | SHFE.rb | [17_rb_calendar_spread.py](strategies/17_rb_calendar_spread.py) |
 | 18 | 跨品种套利：焦炭与焦煤价差策略 | 跨品种套利 | DCE.j + DCE.jm | [18_j_jm_spread.py](strategies/18_j_jm_spread.py) |
+| 19 | 有色金属跨品种套利：铜锌价差策略 | 跨品种套利 | SHFE.cu + SHFE.zn | [19_cu_zn_spread.py](strategies/19_cu_zn_spread.py) |
+| 20 | 农产品跨品种套利：豆粕菜粕价差策略 | 跨品种套利 | DCE.m + CZCE.rm | [20_meal_spread.py](strategies/20_meal_spread.py) |
 
 ## 策略分类
 
@@ -63,4 +65,4 @@ pip install tqsdk numpy pandas
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-11*
+*更新时间：2026-03-12*
