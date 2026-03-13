@@ -31,6 +31,8 @@
 | 18 | 跨品种套利：焦炭与焦煤价差策略 | 跨品种套利 | DCE.j + DCE.jm | [18_j_jm_spread.py](strategies/18_j_jm_spread.py) |
 | 19 | 有色金属跨品种套利：铜锌价差策略 | 跨品种套利 | SHFE.cu + SHFE.zn | [19_cu_zn_spread.py](strategies/19_cu_zn_spread.py) |
 | 20 | 农产品跨品种套利：豆粕菜粕价差策略 | 跨品种套利 | DCE.m + CZCE.rm | [20_meal_spread.py](strategies/20_meal_spread.py) |
+| 21 | 截面动量套利：黑色系多品种截面多空 | 截面动量套利 | SHFE.rb + SHFE.hc + DCE.i + DCE.jm + DCE.j | [21_cross_section_momentum_arb.py](strategies/21_cross_section_momentum_arb.py) |
+| 22 | 焦化利润三腿套利：焦煤→焦炭→螺纹钢 | 加工利润三腿套利 | DCE.jm + DCE.j + SHFE.rb | [22_crack_spread_three_leg.py](strategies/22_crack_spread_three_leg.py) |
 
 ## 策略分类
 
@@ -42,6 +44,12 @@
 
 ### 📊 统计套利（Statistical Arbitrage）
 基于协整关系或相关性的配对交易策略。
+
+### 📐 截面动量套利（Cross-Section Momentum）
+对多品种同时排名，做多强势品种、做空弱势品种，形成截面多空组合。
+
+### 🔗 加工利润套利（Crack / Processing Spread）
+基于原料→中间品→成品的产业链利润回归，多腿联动交易。
 
 ## 环境要求
 
@@ -65,4 +73,4 @@ pip install tqsdk numpy pandas
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-12*
+*更新时间：2026-03-13*
