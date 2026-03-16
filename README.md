@@ -33,6 +33,8 @@
 | 20 | 农产品跨品种套利：豆粕菜粕价差策略 | 跨品种套利 | DCE.m + CZCE.rm | [20_meal_spread.py](strategies/20_meal_spread.py) |
 | 21 | 截面动量套利：黑色系多品种截面多空 | 截面动量套利 | SHFE.rb + SHFE.hc + DCE.i + DCE.jm + DCE.j | [21_cross_section_momentum_arb.py](strategies/21_cross_section_momentum_arb.py) |
 | 22 | 焦化利润三腿套利：焦煤→焦炭→螺纹钢 | 加工利润三腿套利 | DCE.jm + DCE.j + SHFE.rb | [22_crack_spread_three_leg.py](strategies/22_crack_spread_three_leg.py) |
+| 23 | 跨品种对冲基金属套利策略 | 统计套利 | 贵金属/基本金属 | [23_precious_metals_hedge.py](strategies/23_precious_metals_hedge.py) |
+| 24 | 产业链利润套利策略 | 产业链套利 | 黑色/有色 | [24_industrial_chain_arb.py](strategies/24_industrial_chain_arb.py) |
 
 ## 策略分类
 
