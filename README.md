@@ -35,6 +35,8 @@
 | 22 | 焦化利润三腿套利：焦煤→焦炭→螺纹钢 | 加工利润三腿套利 | DCE.jm + DCE.j + SHFE.rb | [22_crack_spread_three_leg.py](strategies/22_crack_spread_three_leg.py) |
 | 23 | 跨品种对冲基金属套利策略 | 统计套利 | 贵金属/基本金属 | [23_precious_metals_hedge.py](strategies/23_precious_metals_hedge.py) |
 | 24 | 产业链利润套利策略 | 产业链套利 | 黑色/有色 | [24_industrial_chain_arb.py](strategies/24_industrial_chain_arb.py) |
+| 25 | 贵金属跨市场统计套利策略 | 跨市场统计套利 | 黄金/白银/铂金 | [25_precious_metals_cross_market_arb.py](strategies/25_precious_metals_cross_market_arb.py) |
+| 26 | 螺纹钢产业链三角套利策略 | 产业链三角套利 | 螺纹钢/铁矿石/焦炭 | [26_rb_industry_chain_triangle_arb.py](strategies/26_rb_industry_chain_triangle_arb.py) |
 
 ## 策略分类
 
