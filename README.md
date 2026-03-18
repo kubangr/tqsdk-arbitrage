@@ -37,6 +37,8 @@
 | 24 | 产业链利润套利策略 | 产业链套利 | 黑色/有色 | [24_industrial_chain_arb.py](strategies/24_industrial_chain_arb.py) |
 | 25 | 贵金属跨市场统计套利策略 | 跨市场统计套利 | 黄金/白银/铂金 | [25_precious_metals_cross_market_arb.py](strategies/25_precious_metals_cross_market_arb.py) |
 | 26 | 螺纹钢产业链三角套利策略 | 产业链三角套利 | 螺纹钢/铁矿石/焦炭 | [26_rb_industry_chain_triangle_arb.py](strategies/26_rb_industry_chain_triangle_arb.py) |
+| 27 | 截面波动率套利策略 | 截面波动率套利 | 黑色系5品种 | [27_cross_section_volatility_arb.py](strategies/27_cross_section_volatility_arb.py) |
+| 28 | 截面动量轮转套利策略 | 截面动量轮转套利 | 黑色系5品种 | [28_cross_section_momentum_rotate_arb.py](strategies/28_cross_section_momentum_rotate_arb.py) |
 
 ## 策略分类
 
